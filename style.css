@@ -14,7 +14,14 @@ nav {
     align-items: center;
     padding: 10px 20px;
 }
-
+nav .schoolLogo{
+    display: flex;
+    align-items: center;
+}
+nav .sch {
+    height: 20px;
+    font-size: large;
+}
 nav .logo img {
     height: 40px; /* Adjust logo size */
 }
@@ -89,6 +96,18 @@ nav .contact-btn button:hover {
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: #333;
+}
+
+
+.hero-section h1 span{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #e8530e;
+}
+.hero-section h1 .vision {
+    font-size: 2.5rem; 
+    margin-bottom: 20px;  
+    color: #15bdf4; 
 }
 
 .hero-section p {
@@ -349,12 +368,13 @@ footer {
     align-items: flex-start;
     max-width: 1200px;
     margin: 0 auto;
-    flex-wrap: wrap;  /* Allow wrapping of content in small screen sizes */
+    flex-wrap: wrap;  
 }
 
 /* Left Section */
 .footer-left img {
-    width: 100px; /* Adjust logo size */
+    height:20px ;
+    width: 40px; 
     height: auto;
 }
 
