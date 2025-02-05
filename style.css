@@ -218,10 +218,6 @@ nav .contact-btn button:hover {
     font-weight: bold;
 }
 
-.card:hover {
-    transform: translateY(-5px); /* Adds hover effect */
-}
-
 /* Responsive Design for Cards */
 @media (max-width: 1024px) {
     .card {
